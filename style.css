@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-width: 100vh;
+  min-height: 100vh;
+  /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
+  background-image: url(bg-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 1.5rem;
+  /* backdrop-filter: blur(8px);
+ background: rgba(255, 255, 255, 0.1); */
+  border-radius: 3px;
+  padding: 1rem 0.5rem 2rem 0.5rem;
+  text-align: center;
+}
+
+.picture {
+  height: 70%;
+}
+
+.picture img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100px;
+}
+
+.margin-top {
+  margin: 2rem;
+}
+
+.heading > span {
+  display: block;
+}
+
+.heading--main {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  color: #fff;
+}
+
+.link-box {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.btn:link,
+.btn:visited {
+  display: block;
+  /* flex-flow: row nowrap;
+  justify-content: space-between; */
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: auto;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 47rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn img {
+  width: 3rem;
+  float: left;
+  margin-right: -1rem;
+}
+
+.bx {
+  float: left;
+  font-size: 3rem;
+  margin-right: -1rem;
+}
+
+.link-icon {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.link-icon img {
+  width: 3rem;
+  font-size: 3rem;
+}
+
+.link-icon i {
+  color: #fff;
+}
+
+/* Media query untuk perangkat seluler dengan lebar maksimal 767px */
+@media (max-width: 767px) {
+  html {
+    font-size: 12.5px;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  body {
+    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
+    background-image: url(bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+  }
+}
+
+/* Media query untuk tablet dengan lebar maksimal 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 12.5px;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  body {
+    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
+    background-image: url(bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+  }
+}
