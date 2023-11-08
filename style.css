@@ -126,7 +126,7 @@ body {
 /* Media query untuk perangkat seluler dengan lebar maksimal 767px */
 @media (max-width: 767px) {
   html {
-    font-size: 12.5px;
+    font-size: 78.125%;
   }
 
   .container {
@@ -169,68 +169,5 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px){
- html {
-    font-size: 12.5px;
-  }
 
-  .container {
-    width: 100%;
-    margin-top: 1.5rem;
-    padding: 0.5rem;
-  }
-
-  body {
-    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
-    background-image: url(bg-2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: auto;
-  }
-}
-
-@media only screen and (min-width: 600px){
-  html {
-    font-size: 12.5px;
-  }
-
-  .container {
-    width: 100%;
-    margin-top: 1.5rem;
-    padding: 0.5rem;
-  }
-
-  body {
-    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
-    background-image: url(bg-2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: auto;
-  }
-}
-
-@media only screen and (min-width: 365px){
-  html {
-    font-size: 12.5px;
-  }
-
-  .container {
-    width: 100%;
-    margin-top: 1.5rem;
-    padding: 0.5rem;
-  }
-
-  body {
-    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
-    background-image: url(bg-2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: auto;
-  }
-}
+   
