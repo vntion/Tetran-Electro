@@ -123,10 +123,93 @@ body {
   color: #fff;
 }
 
-/* Media query untuk perangkat seluler dengan lebar maksimal 767px */
-@media (max-width: 767px) {
+@media (min-width:320px){
   html {
-    font-size: 78.125%;
+    font-size: 12.5px;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  body {
+    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
+    background-image: url(bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+  }
+}
+@media (min-width:481px){
+  html {
+    font-size: 12.5px;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  body {
+    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
+    background-image: url(bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+  }
+}
+@media (min-width:641px){
+  html {
+    font-size: 12.5px;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  body {
+    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
+    background-image: url(bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+  }
+}
+@media (min-width:961px){
+  html {
+    font-size: 12.5px;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  body {
+    /* background: linear-gradient(to right bottom, #79b6f7, rgb(254, 174, 165)); */
+    background-image: url(bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+  }
+}
+@media (min-width:1025px){
+  html {
+    font-size: 12.5px;
   }
 
   .container {
@@ -146,8 +229,7 @@ body {
   }
 }
 
-/* Media query untuk tablet dengan lebar maksimal 1023px */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width:1281px){
   html {
     font-size: 12.5px;
   }
